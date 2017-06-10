@@ -1,3 +1,25 @@
 @charset "utf-8";
-#wrapper {
+/* Simplify width and height calculations */
+html
+{
+	box-sizing:
+	border-box;
 }
+
+*, *:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+	margin: 0;
+	color: #4B4B4B;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	background-color: #EFF5F8;
+}
+
+#wrapper{
+	}
+
