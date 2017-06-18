@@ -52,6 +52,19 @@ main, aside {
 	max-width: 100%;
 	display: block;
 }
+#hero p {
+	color: #F68979;
+	font-weight: 600;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
 figure  {
 	width: 400px;
 	max-width: 92%;
