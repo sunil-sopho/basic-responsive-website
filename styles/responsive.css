@@ -48,3 +48,35 @@ main, aside {
 	margin-left: 4%;
 	margin-right: 4%;
 }
+#hero img {
+	max-width: 100%;
+	display: block;
+}
+figure  {
+	width: 400px;
+	max-width: 92%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+figure img {
+	max-width: 100%;
+}
+
+
+figcaption {
+	display: block;
+	margin-top: 0.5em;
+	font-size: 0.75em;
+	text-transform: uppercase;
+}
+.grayscale {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.grayscale:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
