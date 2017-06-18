@@ -94,9 +94,23 @@ a:focus {
 	background-color: #000000;
 	background-color: rgba(0,0,0,0.65);
 	position: absolute;
+-webkit-transition: all ease-out 0.5s;
+transition: all ease-out 0.5s;
 }
 #navlinks.displayed {
+	top: 135px;
+	z-index: 1;
+	opacity: 1;
 }
+#navlinks.start {
+	display: none;
+}
+#navlinks.collapsed {
+	top: -12em;
+	opacity: 0;
+}
+
+
 
 #navlinks a {
 	display: block;
@@ -107,6 +121,10 @@ a:focus {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+#navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
+	color: #F68979;
+}
+
 
 
 
