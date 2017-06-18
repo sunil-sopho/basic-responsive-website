@@ -93,3 +93,11 @@ figcaption {
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%);
 }
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1E1E1E;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
