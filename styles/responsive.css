@@ -86,7 +86,24 @@ a:focus {
 }
 
 #navlinks {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+		background-color:#000000;
+	background-color: rgba(0,0,0,0.65);
 }
+#navlinks a {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
 
 
 
