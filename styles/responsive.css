@@ -67,7 +67,24 @@ a:focus {
 	text-decoration: underline;
 }
 #menulink {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+	background-color: #1E1E1E;
+
 }
+#menulink a {
+	color: white;
+	font-weight: 200;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+}
+
 #navlinks {
 }
 
