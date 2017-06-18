@@ -44,6 +44,39 @@ h2 {
 	margin-top: 0.5em;
 	font-size: 2.25em;
 }
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #F68979;
+}
+a:visited {
+	color: #FF944C;
+}
+a:hover {
+	color: #7F3300;
+	text-decoration: underline;
+}
+a:active {
+	color: #7F3300;
+	text-decoration: underline;
+}
+a:focus {
+	color: #7F3300;
+	text-decoration: underline;
+}
+#menulink {
+}
+#navlinks {
+}
+
+
+
+
+
+
+
 main, aside {
 	margin-left: 4%;
 	margin-right: 4%;
