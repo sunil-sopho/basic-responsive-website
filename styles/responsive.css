@@ -215,6 +215,22 @@ footer {
 	float: left;
 	color: #1E1E1E;
 }
+#hero p {
+	width: 36%;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: absolute;
+	top: 92px;
+	color: white;
+	right: 33px;
+	border: 5px solid rgba(255,255,255,1.00);
+}
+#hero {
+	position: relative;
+}
+
+
 
 
 
