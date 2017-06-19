@@ -83,6 +83,8 @@ a:focus {
 	display: block;
 	padding-top: 0.1em;
 	padding-bottom: 0.1em;
+	font-family: source-sans-pro;
+	font-style: normal;
 }
 
 #navlinks {
@@ -152,6 +154,8 @@ main, aside {
 	padding-right: 4%;
 	padding-bottom: 20px;
 	margin-top: 10px;
+	font-family: source-sans-pro;
+	font-style: normal;
 }
 
 figure  {
