@@ -264,5 +264,11 @@ footer {
 	margin-right: 0px;
 	margin-left: 10px;
 }
+.floatleft {
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
 
 }
