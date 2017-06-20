@@ -226,6 +226,27 @@ footer {
 	right: 33px;
 	border: 5px solid rgba(255,255,255,1.00);
 }
+main {
+	width: 60%;
+}
+aside {
+	width: 28%;
+	margin-left: 0px;
+}
+main, aside {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+	font-size: 0.875em;
+}
+footer {
+	clear: left;
+
+}
+
+
+
+
 #hero {
 	position: relative;
 }
@@ -234,5 +255,14 @@ footer {
 
 
 
+
+}
+
+@media (min-width: 900px){
+.floatright {
+	float: right;
+	margin-right: 0px;
+	margin-left: 10px;
+}
 
 }
